@@ -27,7 +27,7 @@ namespace CSharpConcepts
             Console.WriteLine();
             TypeExercises.BMICalculator(5.9, 92.5);
             TypeExercises.FutureDate(5);
-            TypeExercises.SelectLanguage("Marathi");
+            TypeExercises.SelectLanguage("French");
             //Console.WriteLine("# Calculator");
             //TypeExercises.Calculator(12, 5);
             //Console.WriteLine();

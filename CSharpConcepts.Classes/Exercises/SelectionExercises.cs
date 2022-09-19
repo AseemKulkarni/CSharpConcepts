@@ -13,6 +13,18 @@ namespace CSharpConcepts.Classes.Exercises
         // If divisible by neither return the number itself (as a string)
         public static string FizzBuzz(int num)
         {
+            string output = Convert.ToString(num);
+            if (num % 15 == 0)
+                Console.WriteLine("Fizzbuzz");
+            else
+                if (num % 5 == 0)
+                Console.WriteLine("Buzz");
+            if (num % 3 == 0)
+                Console.WriteLine("Fizz");
+            else
+
+                Console.WriteLine($"{output}");
+
             throw new NotImplementedException();
         }
 
@@ -21,8 +33,30 @@ namespace CSharpConcepts.Classes.Exercises
         // false if it is a consonant
         public static bool VowelOrConsonant(char letter)
         {
+
+            switch (letter)
+            {
+                case 'a':
+                    return false;
+                case 'e':
+                    return false;
+                case ('i'):
+                    return false;
+                case ('o'):
+                    return false;
+                case ('u'):
+                    return false;
+                default:
+                    return true;
+            }
+
+
+
             throw new NotImplementedException();
         }
+    }
+}
+
 
         // Q3: DiceRoller
         // Write a procedure which rolls three dice and write the following messages to the console
@@ -30,9 +64,18 @@ namespace CSharpConcepts.Classes.Exercises
         // If two of the dice have the same value write, "You have a pair!
         // Otherwise write, "Sorry you lose
 
+
+
+
+
+
         // Q4: Angles
         // Write a function to return whether the angle input is acute, right angle, obtuse, straight or reflex
         // Use an enum for the different angle types
+
+       
+
+
 
         // Q5: Rock, Paper Scissors
         // Write a procedure which takes the user's choice as input and randomly generate the computer's choice
@@ -43,7 +86,4 @@ namespace CSharpConcepts.Classes.Exercises
         // Write a function that takes in three side lengths.
         // Determine whether a triangle with those sides is equilateral, isosceles, scalene or impossible
 
-
-
-    }
-}
+     

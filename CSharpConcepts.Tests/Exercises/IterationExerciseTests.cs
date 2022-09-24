@@ -23,5 +23,12 @@ namespace CSharpConcepts.Tests.Exercises
             double battingAverage = IterationExercises.BattingAverage(input);
             Assert.AreEqual(39.76923076923077, battingAverage, 0.001);
         }
+        [TestMethod]
+        public void isprime()
+        { bool  primenumber = isprime(79)
+          Assert.AreEqual(true,primenumber)                
+                
+                }
+
     }
 }

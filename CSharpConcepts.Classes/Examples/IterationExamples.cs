@@ -84,7 +84,7 @@ namespace CSharpConcepts.Classes.Examples
 
         #region Condition Controlled
         public static void CakesEaten(int cakeNumber)
-        {
+        { 
             while (cakeNumber > 0)
             {
                 Console.WriteLine($"{cakeNumber} cakes");

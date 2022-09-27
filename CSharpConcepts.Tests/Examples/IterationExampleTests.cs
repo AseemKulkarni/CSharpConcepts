@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CSharpConcepts.Classes.Examples;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace CSharpConcepts.Tests
 {
@@ -25,5 +26,6 @@ namespace CSharpConcepts.Tests
             List<double> squaredNumbers = IterationExamples.SquaredNumbers(input);
             CollectionAssert.AreEqual(expected, squaredNumbers);
         }
+        
     }
 }
